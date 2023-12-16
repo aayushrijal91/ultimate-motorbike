@@ -1,0 +1,17 @@
+section.banner {
+    background: imgUrl('banner.jpg') center;
+    background-size: cover;
+
+    @media screen and (max-width: 540px) {
+        background-position: 90% top;
+    }
+}
+
+section.reasons {
+    background: imgUrl('reasons.jpg') center;
+    background-size: cover;
+
+    @media screen and (max-width: 540px) {
+        background-position: 30% 30%;
+    }
+}
