@@ -21,8 +21,8 @@
             </div>
         </section>
 
-        <section class="bg-primary py-12 md:py-[86px] px-4 xl:px-[120px]">
-            <div class="w-full xl:w-1/2 text-white">
+        <section class="bg-primary py-12 md:py-[86px] px-4 flex flex-wrap">
+            <div class="w-full xl:w-1/3 text-white px-3">
                 <p class="text-28 md:text-45 capitalize font-medium leading-none">Self-Service Finance<br /> Pre-Approvals</p>
 
                 <p class="text-base md:text-lg lg:text-xl my-4">
@@ -98,7 +98,7 @@
                         </svg>
                     </div>
 
-                    <div class="w-10/12 md:w-8/12">
+                    <div class="w-10/12">
                         <p class="text-xl md:text-28 leading-none font-medium">
                             No impact to your credit score*
                         </p>
@@ -109,58 +109,53 @@
                 </div>
             </div>
 
-            <p class="text-2xl md:text-4xl font-medium leading-none mt-9 text-white">Fast and convenient finance in 4 easy steps</p>
+            <div class="w-full xl:w-2/3 px-3">
+                <p class="text-2xl md:text-3xl font-medium leading-none text-white">Fast and convenient finance in 4 easy steps</p>
 
-            <div class="flex flex-wrap gap-y-5 lg:-mx-2 mt-10 font-saira">
-                <div class="w-full lg:w-5/12 px-2">
-                    <div class="h-full rounded-10 bg-white text-center flex flex-col items-center">
-                        <div class="pt-10 pb-4 w-10/12 xl:w-1/2 mx-auto">
-                            <p class="uppercase text-primary text-lg font-medium">Step 01</p>
-                            <p class="capitalize text-black text-2xl font-semibold">Quick Calculator</p>
-                            <p class="text-sm pt-2 text-grey">Instantly calculate your loan options with our smart online calculator</p>
-                        </div>
-                        <?= renderImg('step-1.png', 'lib', 'h-full') ?>
-                    </div>
-                </div>
-
-                <div class="w-full lg:w-7/12 px-2">
-                    <div class="h-full rounded-10 bg-white flex flex-wrap md:flex-nowrap md:flex-row px-10">
-                        <div class="py-5 w-full md:w-5/12 flex flex-col justify-center text-center md:text-start">
-                            <p class="uppercase text-primary text-lg font-medium">Step 02</p>
-                            <p class="capitalize text-black text-2xl font-semibold">Real Quote</p>
-                            <p class="text-sm pt-2 text-grey">Instant Finance Pre-Approval with
-                                no impact on your credit score.</p>
-                        </div>
-                        <div class="w-full md:w-7/12 flex justify-center">
-                            <?= renderImg('step-2.png', 'lib', 'h-full w-full') ?>
+                <div class="flex flex-wrap gap-y-5 lg:-mx-2 mt-7 font-saira">
+                    <div class="w-full lg:w-5/12 px-2">
+                        <div class="h-full rounded-10 bg-white text-center flex flex-col items-center">
+                            <div class="pt-10 pb-4 w-10/12 xl:w-1/2 mx-auto">
+                                <p class="uppercase text-primary text-lg font-medium">Step 01</p>
+                                <p class="capitalize text-black text-2xl font-semibold">Quick Calculator</p>
+                            </div>
+                            <?= renderImg('step-1.png', 'lib', 'h-full') ?>
                         </div>
                     </div>
-                </div>
 
-                <div class="w-full lg:w-7/12 px-2">
-                    <div class="h-full rounded-10 bg-white flex flex-wrap md:flex-nowrap md:flex-row justify">
-                        <div class="py-5 ps-10 lg:ps-5 xl:ps-10 w-full md:w-1/2 flex flex-col justify-center text-center md:text-start">
-                            <p class="uppercase text-primary text-lg font-medium">Step 03</p>
-                            <p class="capitalize text-black text-2xl font-semibold">Instant Pre-Approval</p>
-                            <p class="text-sm pt-2">Our powerful lender matching engine will match you with suitable lenders with <b>95% accuracy.</b></p>
-                        </div>
-                        <div class="w-full md:w-1/2">
-                            <?= renderImg('step-3.png', 'lib', 'hidden md:block h-full w-full') ?>
-                            <?= renderImg('step-3-sm.png', 'lib', 'md:hidden h-full w-full') ?>
+                    <div class="w-full lg:w-7/12 px-2">
+                        <div class="h-full rounded-10 bg-white flex flex-wrap md:flex-nowrap md:flex-row px-10">
+                            <div class="py-5 w-full md:w-5/12 flex flex-col justify-center text-center md:text-start">
+                                <p class="uppercase text-primary text-lg font-medium">Step 02</p>
+                                <p class="capitalize text-black text-2xl font-semibold">Real Quote</p>
+                            </div>
+                            <div class="w-full md:w-7/12 flex justify-center">
+                                <?= renderImg('step-2.png', 'lib', 'h-full w-full') ?>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="w-full lg:w-5/12 px-2">
-                    <div class="h-full rounded-10 bg-white text-center flex flex-col items-center">
-                        <div class="pt-10 pb-5 w-10/12 mx-auto">
-                            <p class="uppercase text-black text-lg font-medium">Step 04</p>
-                            <p class="capitalize text-primary text-2xl font-semibold">Apply to Lender</p>
-                            <p class="text-sm pt-2">
-                                <b>The fastest ever finance experience!</b> MotorCycle Holding’s Quick Apply supports direct-to-lender submissions
-                            </p>
+                    <div class="w-full lg:w-7/12 px-2">
+                        <div class="h-full rounded-10 bg-white flex flex-wrap md:flex-nowrap md:flex-row justify">
+                            <div class="py-5 ps-10 lg:ps-5 xl:ps-10 w-full md:w-1/2 flex flex-col justify-center text-center md:text-start">
+                                <p class="uppercase text-primary text-lg font-medium">Step 03</p>
+                                <p class="capitalize text-black text-2xl font-semibold">Instant Pre-Approval</p>
+                            </div>
+                            <div class="w-full md:w-1/2">
+                                <?= renderImg('step-3.png', 'lib', 'hidden md:block h-full w-full') ?>
+                                <?= renderImg('step-3-sm.png', 'lib', 'md:hidden h-full w-full') ?>
+                            </div>
                         </div>
-                        <?= renderImg('step-4.png', 'lib', 'h-full') ?>
+                    </div>
+
+                    <div class="w-full lg:w-5/12 px-2">
+                        <div class="h-full rounded-10 bg-white text-center flex flex-col items-center">
+                            <div class="pt-10 pb-5 w-10/12 mx-auto">
+                                <p class="uppercase text-black text-lg font-medium">Step 04</p>
+                                <p class="capitalize text-primary text-2xl font-semibold">Apply to Lender</p>
+                            </div>
+                            <?= renderImg('step-4.png', 'lib', 'h-full') ?>
+                        </div>
                     </div>
                 </div>
             </div>
