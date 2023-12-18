@@ -119,31 +119,30 @@
                                 <p class="uppercase text-primary text-lg font-medium">Step 01</p>
                                 <p class="capitalize text-black text-2xl font-semibold">Quick Calculator</p>
                             </div>
-                            <?= renderImg('step-1.png', 'lib', 'h-full') ?>
+                            <?= renderImg('step-1.png', 'lib', 'max-h-[450px]') ?>
                         </div>
                     </div>
 
                     <div class="w-full lg:w-7/12 px-2">
                         <div class="h-full rounded-10 bg-white flex flex-wrap md:flex-nowrap md:flex-row px-10">
-                            <div class="py-5 w-full md:w-5/12 flex flex-col justify-center text-center md:text-start">
+                            <div class="py-5 w-full md:w-4/12 flex flex-col justify-center text-center md:text-start">
                                 <p class="uppercase text-primary text-lg font-medium">Step 02</p>
                                 <p class="capitalize text-black text-2xl font-semibold">Real Quote</p>
                             </div>
-                            <div class="w-full md:w-7/12 flex justify-center">
-                                <?= renderImg('step-2.png', 'lib', 'h-full w-full') ?>
+                            <div class="w-full md:w-8/12 flex justify-center items-end">
+                                <?= renderImg('step-2.png', 'lib') ?>
                             </div>
                         </div>
                     </div>
 
                     <div class="w-full lg:w-7/12 px-2">
-                        <div class="h-full rounded-10 bg-white flex flex-wrap md:flex-nowrap md:flex-row justify">
-                            <div class="py-5 ps-10 lg:ps-5 xl:ps-10 w-full md:w-1/2 flex flex-col justify-center text-center md:text-start">
+                        <div class="h-full rounded-10 bg-white flex flex-wrap md:flex-nowrap md:flex-row items-center">
+                            <div class="py-5 ps-10 lg:ps-5 xl:ps-10 w-full md:w-4/12 flex flex-col justify-center text-center md:text-start">
                                 <p class="uppercase text-primary text-lg font-medium">Step 03</p>
                                 <p class="capitalize text-black text-2xl font-semibold">Instant Pre-Approval</p>
                             </div>
-                            <div class="w-full md:w-1/2">
-                                <?= renderImg('step-3.png', 'lib', 'hidden md:block h-full w-full') ?>
-                                <?= renderImg('step-3-sm.png', 'lib', 'md:hidden h-full w-full') ?>
+                            <div class="w-full md:w-8/12">
+                                <?= renderImg('step-3.png', 'lib') ?>
                             </div>
                         </div>
                     </div>
@@ -154,7 +153,7 @@
                                 <p class="uppercase text-black text-lg font-medium">Step 04</p>
                                 <p class="capitalize text-primary text-2xl font-semibold">Apply to Lender</p>
                             </div>
-                            <?= renderImg('step-4.png', 'lib', 'h-full') ?>
+                            <?= renderImg('step-4.png', 'lib', 'px-5') ?>
                         </div>
                     </div>
                 </div>
