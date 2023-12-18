@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="md:bg-light md:px-3 xl:px-14 pt-4 pb-16 md:pt-6 lg:pb-48">
+    <div class="md:bg-light md:px-3 xl:px-14 pt-4 pb-16 md:pt-6 md:pb-48">
         <section class="banner flex flex-wrap justify-between items-center px-3 xl:px-14 py-6">
             <div class="w-full md:w-fit h-[700px] flex justify-center items-center order-2 md:order-1">
                 <iframe src="https://vroom.youxpowered.com.au/iframe/m3566" class="w-full md:w-[380px] rounded-lg h-fyll min-h-[700px] shadow-lg"></iframe>
@@ -198,10 +198,8 @@
             </div>
         </div>
     </div>
-</div>
 
-<section class="reasons pt-[441px] lg:pt-[627px] pb-8 md:pb-16">
-    <div class="container text-white">
+    <section class="reasons text-white pt-[441px] lg:pt-[627px] pb-8 md:pb-16 px-3 xl:px-14">
         <p class="uppercase font-semibold text-[27px] md:text-45 leading-none">3 reasons to self-serve</p>
 
         <div class="flex flex-wrap gap-y-4 lg:-mx-2 mt-10">
@@ -254,11 +252,9 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<div class="container">
-    <div class="description text-grey py-12 px-2 md:px-14 text-sm md:text-base md:bg-light">
+    <div class="description text-grey py-12 text-sm md:text-base bg-light px-3 xl:px-14">
         <p>Disclaimers:</p>
         <ul class="list-decimal ps-5 flex flex-col gap-y-3">
             <li>
